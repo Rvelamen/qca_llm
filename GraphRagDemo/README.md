@@ -21,7 +21,7 @@
 
    最终会在output中生成
 
-   ![Alt text](image.png)
+   ![Alt text](images/image.png)
 
 5. 使用`global_search.ipynb` 运行输出rag结果
 
@@ -30,15 +30,15 @@
 ### 2. 怎么使用`neo4j` 可视化
 
 效果图：
-![Alt text](image-4.png)
-![Alt text](image-5.png)
+![Alt text](images/image-4.png)
+![Alt text](images/image-5.png)
 
 1. 下载neo4j 
 https://neo4j.com/download/
 
 2. 启动DBMS
 
-![Alt text](image-1.png)
+![Alt text](images/image-1.png)
 
 3. 网页访问
 http://localhost:7474
@@ -47,13 +47,13 @@ http://localhost:7474
 
 使用`transfer.ipynb`脚本
 
-![Alt text](image-2.png)
+![Alt text](images/image-2.png)
 
 5. 将csv 复制到 neo4j 目录下`relate-data\dbmss\dbms-xxxxx\import` 目录下
 
 6. 执行一下 neo4j 命令进行加载
 
-![Alt text](image-3.png)
+![Alt text](images/image-3.png)
 ``` neo4j
 // 1. Import Documents
 LOAD CSV WITH HEADERS FROM 'file:///create_final_documents.csv' AS row
